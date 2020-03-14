@@ -8,6 +8,7 @@ var tbody = d3.select("tbody");
 let button = d3.select("#filter-btn")
 
 button.on('click', function() {
+    d3.event.preventDefault();
     let inputElement = d3.select('#datetime')
     let inputValue = inputElement.property('value')
     let filteredTime = tableData.filter((entry) => entry.datetime === inputValue);
@@ -26,7 +27,7 @@ button.on('click', function() {
         });
     });
 });
-// Originally had this on top of the button function. Return filter wouldn't render and clear the original table. Reordered to the bottom of the button click. Worked.
+
 tableData.forEach((table) => {
     // console.log(table);
     let row = tbody.append('tr');
