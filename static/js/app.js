@@ -5,6 +5,7 @@ var tbody = d3.select("tbody");
 // get the data posted in front (attempting to convert this to a function to invoke inside the loop)
 
 // filter and button
+// wanted to try using checkboxes and a single user input filter instead of having multiple entry forms
 let button = d3.select("#filter-btn")
 
 button.on('click', function() {
