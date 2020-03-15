@@ -996,5 +996,14 @@ var data = [{
     shape: "unknown",
     durationMinutes: "4 minutes",
     comments: "Bright orange object&#44 rapid speed and direction changes .."
-  }
+  },
+  {
+  datetime: "1/25/2010",
+  city: "harbor mille",
+  state: "newfoundland",
+  country: "canada",
+  shape: "unknown",
+  durationMinutes: "unknown",
+  comments: "At least three UFOs that looked like missiles but emitted no noise were spotted over Harbour Mille."
+}
 ];

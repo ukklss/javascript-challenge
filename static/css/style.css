@@ -69,7 +69,7 @@ select {
   display: block;
   width: 100%;
   padding: 8px;
-  color: #8e979f;
+  color: rgb(100, 107, 114);
   outline: none;
 }
 
@@ -89,6 +89,10 @@ select {
 
 .margin-top-50 {
   margin-top: 50px;
+}
+
+#filter-btn {
+  background-color: #646b72;
 }
 
 /* The styles for the parallax */
