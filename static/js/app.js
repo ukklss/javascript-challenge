@@ -16,27 +16,22 @@ button.on('click', function() {
     $('#ufo-table tbody').empty(); //[1][2]
    
     if (document.getElementById('datetime').checked && inputValue != "") {
-        console.log('sheep is woolly!');
         filterOption = tableData.filter((entry) => entry.datetime === inputValue);
         filterSys();
     };
     if (document.getElementById('shape').checked && inputValue != "") {
-        console.log('pusheen loves pizza!');
         filterOption = tableData.filter((entry) => entry.shape === inputValue);
         filterSys();
     };
     if (document.getElementById('country').checked && inputValue != "") {
-        console.log('pusheen loves pizza!');
         filterOption = tableData.filter((entry) => entry.country === inputValue);
         filterSys();
     };
     if (document.getElementById('state').checked && inputValue != "") {
-        console.log('pusheen loves pizza!');
         filterOption = tableData.filter((entry) => entry.state === inputValue);
         filterSys();
     };
     if (document.getElementById('city').checked && inputValue != "") {
-        console.log('pusheen loves pizza!');
         filterOption = tableData.filter((entry) => entry.city === inputValue);
         filterSys();
     };
